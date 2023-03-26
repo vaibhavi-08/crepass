@@ -1,0 +1,22 @@
+{
+  "name": "crepass",
+  "version": "1.0.0",
+  "description": "Simple password generator",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin":"./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaibhavi",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clipboard": "^1.0.0",
+    "clipboardy": "^1.0.0",
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2"
+  }
+}
